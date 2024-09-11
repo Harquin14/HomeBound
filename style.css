@@ -1,0 +1,122 @@
+.nav-link{
+    justify-items: flex;
+    margin-right: 20px;
+    justify-content: end;
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+@media (min-width: 992px) {
+    .flex-lg-row-reverse {
+        flex-direction: row-reverse !important;
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: var(--bs-emphasis-color) !important;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.pb-2 {
+    padding-bottom: .5rem !important;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+.carousel.pointer-event {
+    touch-action: pan-y;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item {
+    height: 32rem;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+  
+  .carousel-item img {
+    width: 100%;
+    height: 600px; /* Maintains aspect ratio */
+    object-fit: cover; /* Cover the container */
+    margin-top: -20px;
+  }
+  .hap {
+    /*background: linear-gradient(to right, #f0f8ff, #e6f7ff); /* Light blue gradient background */
+    
+   
+    padding: 20px; /* Space inside the border */
+    margin: 20px; /* Space outside the border */
+    color: #000; /* Dark blue text color for contrast */
+   
+   
+}
+.navbar-brand span {
+    color: #ff0000; /* Change to desired color */
+    font-size: 1.2em; /* Adjust size as needed */
+    font-weight: 400; /* Adjust weight as needed */
+  }
+  .number{
+    font-weight: 400;
+    color: #000000;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.d-flex {
+    display: flex !important;
+}
+.ms-3 {
+    margin-left: 1rem !important;
+}
+.card-img-top{
+    height: 200px; 
+    object-fit: cover;
+}
+.testimony {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image keeps its aspect ratio while filling the space */
+    border-radius: 50%; /* Makes the image a perfect circle */
+    margin: 0 auto; /* Centers the image */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+  
